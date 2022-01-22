@@ -39,8 +39,8 @@ var startGame = function() {
     Game.setBoard(1,new Starfield(50,0.6,100));
     Game.setBoard(2,new Starfield(100,1.0,50));
   }  
-  Game.setBoard(3,new TitleScreen("Alien Game", 
-                                  "Press any key to start playing",
+  Game.setBoard(3,new TitleScreen("Alien Invasion", 
+                                  "Press space start playing",
                                   playGame));
 };
 
@@ -68,13 +68,13 @@ var playGame = function() {
 
 var winGame = function() {
   Game.setBoard(3,new TitleScreen("You win!", 
-                                  "Press any key to play again",
+                                  "Press space play again",
                                   playGame));
 };
 
 var loseGame = function() {
-  Game.setBoard(3,new TitleScreen("Oop's You Lost :(!", 
-                                  "Press any key to play again",
+  Game.setBoard(3,new TitleScreen("You Lost :(!", 
+                                  "Press space play again",
                                   playGame));
 };
 
@@ -89,7 +89,7 @@ var Starfield = function(speed,opacity,numStars,clear) {
   var offset = 0;
 
   // If the clear option is set, 
-  // make the background black instead of transparent
+  // make the background orange instead of transparent
   if(clear) {
     starCtx.fillStyle = "#000";
     starCtx.fillRect(0,0,stars.width,stars.height);
