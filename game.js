@@ -73,7 +73,7 @@ var winGame = function() {
 };
 
 var loseGame = function() {
-  Game.setBoard(3,new TitleScreen("You Lost :(!", 
+  Game.setBoard(3,new TitleScreen("You Lost :(", 
                                   "Press space play again",
                                   playGame));
 };
