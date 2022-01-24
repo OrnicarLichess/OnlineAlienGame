@@ -39,8 +39,8 @@ var startGame = function() {
     Game.setBoard(1,new Starfield(50,0.6,100));
     Game.setBoard(2,new Starfield(100,1.0,50));
   }  
-  Game.setBoard(3,new TitleScreen("Alien Daksh", 
-                                  "Press space/enter to start playing",
+  Game.setBoard(3,new TitleScreen("Alien Invansion", 
+                                  "Press any key to start playing",
                                   playGame));
 };
 
@@ -68,13 +68,13 @@ var playGame = function() {
 
 var winGame = function() {
   Game.setBoard(3,new TitleScreen("You win!", 
-                                  "Press space/enter to play again",
+                                  "Press any key to play again",
                                   playGame));
 };
 
 var loseGame = function() {
-  Game.setBoard(3,new TitleScreen("Daksh Win :(", 
-                                  "Press space/enter to play again",
+  Game.setBoard(3,new TitleScreen("Oops :(", 
+                                  "Press any key to play again",
                                   playGame));
 };
 
