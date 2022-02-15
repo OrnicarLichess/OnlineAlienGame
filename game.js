@@ -67,7 +67,7 @@ var playGame = function() {
 };
 
 var winGame = function() {
-  Game.setBoard(3,new TitleScreen("You win!", 
+  Game.setBoard(3,new TitleScreen("Congo win!", 
                                   "Press any key to play again",
                                   playGame));
 };
