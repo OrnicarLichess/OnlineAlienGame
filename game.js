@@ -5,7 +5,6 @@ var sprites = {
  enemy_bee: { sx: 79, sy: 0, w: 37, h: 43, frames: 1 },
  enemy_circle: { sx: 116, sy: 0, w: 42, h: 43, frames: 1 },
  enemy_ship: { sx: 158, sy: 0, w: 32, h: 33, frames: 1 },
- enemy_round: { sx: 119, sy: 0, w: 33, h: 43, frames: 1 },
  explosion: { sx: 0, sy: 64, w: 64, h: 64, frames: 12 },
  enemy_missile: { sx: 9, sy: 42, w: 3, h: 20, frame: 1, }
 };
@@ -17,7 +16,7 @@ var enemies = {
               B: 75, C: 1, E: 100, missiles: 2  },
   circle:   { x: 250,   y: -50, sprite: 'enemy_circle', health: 10, 
               A: 0,  B: -100, C: 1, E: 20, F: 100, G: 1, H: Math.PI/2 },
-  round:   { x: 100, y: -50, sprite: 'enemy_bee', health: 20, 
+  wiggle:   { x: 100, y: -50, sprite: 'enemy_bee', health: 20, 
               B: 50, C: 4, E: 100, firePercentage: 0.001, missiles: 2 },
   step:     { x: 0,   y: -50, sprite: 'enemy_circle', health: 10,
               B: 150, C: 1.2, E: 75 }
@@ -52,7 +51,7 @@ var level1 = [
   [ 10000,  16000, 400, 'circle' ],
   [ 17800,  20000, 500, 'straight', { x: 50 } ],
   [ 18200,  20000, 500, 'straight', { x: 90 } ],
-  [ 18200,  20000, 500, 'round', { x: 10 } ],
+  [ 18200,  20000, 500, 'circle', { x: 10 } ],
   [ 22000,  25000, 400, 'circle', { x: 150 }],
   [ 22000,  25000, 400, 'straight', { x: 100 }]
 ];
