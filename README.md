@@ -16,5 +16,5 @@ Game Developer Info: https://github.com/DakshCodess
 
 ##Credits
 
-[![sayingthanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://github.com/DakshCodess/OnlineAlienGamePassing/graphs/contributors)
+[![specialthanksto](https://img.shields.io/badge/special-thanks-ff69b4.svg)](https://github.com/DakshCodess/OnlineAlienGamePassing/graphs/contributors)
 [![GitHub contributors](https://contrib.rocks/image?repo=DakshCodess/OnlineAlienGamePassing)](https://github.com/DakshCodess/OnlineAlienGamePassing/graphs/contributors)
