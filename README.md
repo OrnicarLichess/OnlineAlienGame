@@ -13,3 +13,8 @@ Bit.ly link for mobile:
 COMING SOON.
 
 Game Developer Info: https://github.com/DakshCodess 
+
+##Credits
+
+
+[![GitHub contributors](https://contrib.rocks/image?repo=DakshCodess/OnlineAlienGamePassing)](https://github.com/DakshCodess/OnlineAlienGamePassing/graphs/contributors)
