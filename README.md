@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/issues) [![GitHub forks](https://img.shields.io/github/forks/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/network/members) [![Github pull](https://img.shields.io/github/issues-pr/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/pulls) 
+[![GitHub issues](https://img.shields.io/github/issues/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/issues) [![GitHub forks](https://img.shields.io/github/forks/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/network/members) [![Github pull](https://img.shields.io/github/activeissues-pr/DakshCodess/OnlineAlienGame)](https://github.com/DakshCodess/OnlineAlienGame/pulls) 
 Alien Invasion
 ==============
 This is the sample game that is built in the first three Chapter of
